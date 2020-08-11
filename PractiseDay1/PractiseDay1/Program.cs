@@ -10,12 +10,37 @@ namespace PractiseDay1
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
+            //Loopping For
+            //WAP to display 1 to n natural numbers
+
+            int lastNaturalNumbers;
+
+            Console.WriteLine("PLease enter the last natural number you want to display");
+
+            lastNaturalNumbers = int.Parse(Console.ReadLine()); //45
+
+            for(/*1.*/ int i = 1; /*2.*/ i <= lastNaturalNumbers; /*4.*/i++)
+            {
+                /*3.*/
+
+                Console.WriteLine(i); 
+            }
+           // Console.ReadLine();
+
+            //Looping While
+
+            //WAP to display 1 to n natural numbers
+
+            Addition addition = new Addition();
+           Console.WriteLine(addition.AdditionMethod(23, 45));
+
+            //Looping foreach
+
+
+
             Console.ReadKey();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+           
         }
     }
 }
